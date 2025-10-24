@@ -1,8 +1,8 @@
 
 {
-  "name": "secure-docs-protocol-tests",
+  "name": "secure-docs-protocol",
   "version": "1.0.0",
-  "description": "Run unit tests on this project.",
+  "description": "Enterprise-grade on-chain document governance with cryptographic integrity and multi-party access control.",
   "type": "module",
   "private": true,
   "scripts": {
@@ -11,7 +11,7 @@
     "test:watch": "chokidar \"tests/**/*.ts\" \"contracts/**/*.clar\" -c \"npm run test:report\""
   },
   "author": "",
-  "license": "ISC",
+  "license": "Apache-2.0",
   "dependencies": {
     "@hirosystems/clarinet-sdk": "^2.14.0",
     "@stacks/transactions": "^6.12.0",
